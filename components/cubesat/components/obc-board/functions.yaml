@@ -1,0 +1,90 @@
+- name: attitude_determination
+  description: Attitude Determination
+  inputs: 
+  - name: gyro_data_3_axis
+    description: 3-Axis Gyro data
+    type: {{type}}
+    units: {{units}}
+    defaultValue: {{defaultValue}}
+    constraints: {{constraints}}
+  - name: magnetometer_data
+    description: 3-Axis magnetometer data
+    type: {{type}}
+    units: {{units}}
+    defaultValue: {{defaultValue}}
+    constraints: {{constraints}}
+  - name: sun_sensor_data
+    description: 3-Axis sun sensor data
+    type: {{type}}
+    units: {{units}}
+    defaultValue: {{defaultValue}}
+    constraints: {{constraints}}
+  - name: gps_time_data
+    description: GPS and time data (RTC, Lat, N/S, Long, E/W, Altitude)
+    type: {{type}}
+    units: {{units}}
+    defaultValue: {{defaultValue}}
+    constraints: {{constraints}}
+  - name: imu_data
+    description: IMU data
+    type: {{type}}
+    units: {{units}}
+    defaultValue: {{defaultValue}}
+    constraints: {{constraints}}
+  outputs: 
+  - name: quaternions
+    description: Quaternions
+    type: {{type}}
+    units: {{units}}
+    defaultValue: {{defaultValue}}
+    constraints: {{constraints}}
+- name: orbit_propagation
+  description: Orbit Propagation
+  inputs: 
+  - name: gps_time_data
+    description: GPS and time data (RTC, Lat, N/S, Long, E/W, Altitude)
+    type: {{type}}
+    units: {{units}}
+    defaultValue: {{defaultValue}}
+    constraints: {{constraints}}
+  - name: imu_data
+    description: IMU data
+    type: {{type}}
+    units: {{units}}
+    defaultValue: {{defaultValue}}
+    constraints: {{constraints}}  
+  outputs: 
+  - name: orbit_data
+    description: Orbit data
+    type: {{type}}
+    units: {{units}}
+    defaultValue: {{defaultValue}}
+    constraints: {{constraints}} 
+- name: s_band_radio_timing
+  description: S-Band radio timing
+  inputs: 
+  - name: orbit_data
+    description: Orbit data
+    type: {{type}}
+    units: {{units}}
+    defaultValue: {{defaultValue}}
+    constraints: {{constraints}}
+  - name: angular_rotation_rates
+    description: Angular rotation rates
+    type: {{type}}
+    units: {{units}}
+    defaultValue: {{defaultValue}}
+    constraints: {{constraints}}
+  - name: quaternions
+    description: Quaternions
+    type: {{type}}
+    units: {{units}}
+    defaultValue: {{defaultValue}}
+    constraints: {{constraints}}
+  outputs: 
+  - name: s_band_radio_timing
+    description: S-Band radio timing
+    type: {{type}}
+    units: {{units}}
+    defaultValue: {{defaultValue}}
+    constraints: {{constraints}}
