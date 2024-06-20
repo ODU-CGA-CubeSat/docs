@@ -1,0 +1,144 @@
+- name: safe_hold
+  description: Safe Hold
+  inputs: 
+    - name: operational_status_of_equipment
+      description: The operation status of the equipment.
+      type: string
+      units: ''
+      defaultValue: ''
+      constraints: ''
+  outputs:
+    - name: {{name}}
+      description: {{description}}
+      type: {{type}}
+      units: {{units}}
+      defaultValue: {{defaultValue}}
+      constraints: {{constraints}}
+- name: mission_mode_1
+  description: Mission Mode 1
+  inputs:
+    - name: sun_sensor_data
+      description: 3-Axis sun sensor data
+      type: {{type}}
+      units: {{units}}
+      defaultValue: {{defaultValue}}
+      constraints: {{constraints}}
+    - name: magnetometer_data
+      description: 3-Axis magnetometer data
+      type: {{type}}
+      units: {{units}}
+      defaultValue: {{defaultValue}}
+      constraints: {{constraints}}
+    - name: imu_data
+      description: IMU data
+      type: {{type}}
+      units: {{units}}
+      defaultValue: {{defaultValue}}
+      constraints: {{constraints}}
+    - name: gps_time_data
+      description: GPS and time data (RTC, Lat, N/S, Long, E/W, Altitude)
+      type: {{type}}
+      units: {{units}}
+      defaultValue: {{defaultValue}}
+      constraints: {{constraints}}
+  outputs:
+    - name: quaternions
+      description: Quaternions
+      type: {{type}}
+      units: {{units}}
+      defaultValue: {{defaultValue}}
+      constraints: {{constraints}}
+    - name: orbit_data
+      description: Orbit data
+      type: {{type}}
+      units: {{units}}
+      defaultValue: {{defaultValue}}
+      constraints: {{constraints}} 
+- name: mission_mode_2
+  description: Mission Mode 2
+  inputs:
+    - name: sun_sensor_data
+      description: 3-Axis sun sensor data
+      type: {{type}}
+      units: {{units}}
+      defaultValue: {{defaultValue}}
+      constraints: {{constraints}}
+    - name: magnetometer_data
+      description: 3-Axis magnetometer data
+      type: {{type}}
+      units: {{units}}
+      defaultValue: {{defaultValue}}
+      constraints: {{constraints}}
+    - name: imu_data
+      description: IMU data
+      type: {{type}}
+      units: {{units}}
+      defaultValue: {{defaultValue}}
+      constraints: {{constraints}}
+    - name: gps_time_data
+      description: GPS and time data (RTC, Lat, N/S, Long, E/W, Altitude)
+      type: {{type}}
+      units: {{units}}
+      defaultValue: {{defaultValue}}
+      constraints: {{constraints}}
+  outputs:
+    - name: quaternions
+      description: Quaternions
+      type: {{type}}
+      units: {{units}}
+      defaultValue: {{defaultValue}}
+      constraints: {{constraints}}
+    - name: orbit_data
+      description: Orbit data
+      type: {{type}}
+      units: {{units}}
+      defaultValue: {{defaultValue}}
+      constraints: {{constraints}}- name: mission_mode_1
+  description: Mission Mode 1
+  inputs:
+    - name: sun_sensor_data
+      description: 3-Axis sun sensor data
+      type: {{type}}
+      units: {{units}}
+      defaultValue: {{defaultValue}}
+      constraints: {{constraints}}
+    - name: magnetometer_data
+      description: 3-Axis magnetometer data
+      type: {{type}}
+      units: {{units}}
+      defaultValue: {{defaultValue}}
+      constraints: {{constraints}}
+    - name: imu_data
+      description: IMU data
+      type: {{type}}
+      units: {{units}}
+      defaultValue: {{defaultValue}}
+      constraints: {{constraints}}
+    - name: gps_time_data
+      description: GPS and time data (RTC, Lat, N/S, Long, E/W, Altitude)
+      type: {{type}}
+      units: {{units}}
+      defaultValue: {{defaultValue}}
+      constraints: {{constraints}}
+  outputs:
+    - name: quaternions
+      description: Quaternions
+      type: {{type}}
+      units: {{units}}
+      defaultValue: {{defaultValue}}
+      constraints: {{constraints}}
+    - name: orbit_data
+      description: Orbit data
+      type: {{type}}
+      units: {{units}}
+      defaultValue: {{defaultValue}}
+      constraints: {{constraints}} 
+- name: comms_mode
+  description: Comms Mode
+  inputs:
+    - name: satellite_health_data
+      description: Satellite Health Data
+      type: {{type}}
+      units: {{units}}
+      defaultValue: {{defaultValue}}
+      constraints: {{constraints}}
