@@ -1,0 +1,9 @@
+{
+    "name": "tensor-tech-css100-sun-sensors",
+    "version": "0.1.0",
+    "description": "Tensor Tech CSS100 Sun Sensors",
+    "license": "MIT",
+    "author": "Bhagatji Jimesh jbhag001@odu.edu & contributors",
+    "dependencies": {
+    }
+}

@@ -1,0 +1,27 @@
+imu:
+  id: analog-devises-adis161365-6-dof-imu
+  description: AODS IMU
+  quantity: 1
+  quantityUnits: unit
+  options:
+  - analog-devises-adis161365-6-dof-imu
+  selectedOption: 0
+  notes: ''
+gps:
+  id: novatel-oem719-multi-gnss-receiver
+  description: AODS GPS
+  quantity: 1
+  quantityUnits: unit
+  options:
+  - novatel-oem719-multi-gnss-receiver
+  selectedOption: 0
+  notes: ''
+sun-sensor:
+  id: tensor-tech-css100-sun-sensors
+  description: AODS Sun Sensor
+  quantity: 6
+  quantityUnits: unit
+  options:
+  - tensor-tech-css100-sun-sensors
+  selectedOption: 0
+  notes: ''

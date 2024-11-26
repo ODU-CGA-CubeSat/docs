@@ -1,0 +1,9 @@
+{
+    "name": "novatel-oem719-multi-gnss-receiver",
+    "version": "0.1.0",
+    "description": "Novatel OEM719 Multi-GNSS Receiver",
+    "license": "MIT",
+    "author": "Bhagatji Jimesh jbhag001@odu.edu & contributors",
+    "dependencies": {
+    }
+}

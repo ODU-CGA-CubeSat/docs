@@ -1,0 +1,9 @@
+{
+    "name": "analog-devises-adis161365-6-dof-imu",
+    "version": "0.1.0",
+    "description": "Analog devises ADIS161365 6-DOF IMU (3-Axis magnetometer & 3-Axis gyroscope)",
+    "license": "MIT",
+    "author": "Bhagatji Jimesh jbhag001@odu.edu & contributors",
+    "dependencies": {
+    }
+}
