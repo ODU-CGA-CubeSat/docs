@@ -1,0 +1,9 @@
+{
+    "name": "battery-pack",
+    "version": "0.1.0",
+    "description": "Physically holds 10 onboard batteries in 5S2P configuration to deliver electrical power to EPS Board.",
+    "license": "MIT",
+    "author": "Joseph Siciliano jsici001@odu.edu & contributors",
+    "dependencies": {
+    }
+}

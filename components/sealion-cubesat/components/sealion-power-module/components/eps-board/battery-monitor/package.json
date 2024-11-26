@@ -1,0 +1,9 @@
+{
+    "name": "battery-monitor",
+    "version": "0.1.0",
+    "description": "LTC2944I - Measures voltage and current provided from battery pack and local temperature on EPS Board.",
+    "license": "MIT",
+    "author": "Joseph Siciliano jsici001@odu.edu & contributors",
+    "dependencies": {
+    }
+}

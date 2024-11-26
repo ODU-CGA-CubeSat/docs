@@ -1,0 +1,9 @@
+{
+    "name": "sun-sensor",
+    "version": "0.1.0",
+    "description": "CSS100 Coarse Sun Sensor - receives power from and transmits analog data to EPS Board.",
+    "license": "MIT",
+    "author": "Joseph Siciliano jsici001@odu.edu & contributors",
+    "dependencies": {
+    }
+}

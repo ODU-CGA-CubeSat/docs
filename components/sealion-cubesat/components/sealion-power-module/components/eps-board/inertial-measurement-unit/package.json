@@ -1,0 +1,9 @@
+{
+    "name": "inertial-measurement-unit",
+    "version": "0.1.0",
+    "description": "ADIS16400 - IMU for ADOS sensing that receives power from and sends serial data to EPS Board.",
+    "license": "MIT",
+    "author": "Joseph Siciliano jsici001@odu.edu & contributors",
+    "dependencies": {
+    }
+}

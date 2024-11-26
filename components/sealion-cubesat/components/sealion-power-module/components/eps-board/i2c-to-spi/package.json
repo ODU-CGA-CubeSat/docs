@@ -1,0 +1,9 @@
+{
+    "name": "i2c-to-spi",
+    "version": "0.1.0",
+    "description": "SC18IS602B I2C to SPI Converter - receives power from EPS Board and converts SPI protocol to I2C bus communication for IMU.",
+    "license": "MIT",
+    "author": "Joseph Siciliano jsici001@odu.edu & contributors",
+    "dependencies": {
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "gps-receiver",
+    "version": "0.1.0",
+    "description": "Receives power from EPS Board and sends positioning data to OBC through EPS Board.",
+    "license": "MIT",
+    "author": "Joseph Siciliano jsici001@odu.edu & contributors",
+    "dependencies": {
+    }
+}

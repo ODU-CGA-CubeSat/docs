@@ -1,0 +1,9 @@
+{
+    "name": "ip-circuit",
+    "version": "0.1.0",
+    "description": "Impedance (IP) Circuit - receives power from and transmits data to EPS Board",
+    "license": "MIT",
+    "author": "Joseph Siciliano jsici001@odu.edu & contributors",
+    "dependencies": {
+    }
+}

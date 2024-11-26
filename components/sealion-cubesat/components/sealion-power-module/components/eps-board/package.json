@@ -1,0 +1,9 @@
+{
+    "name": "eps-board",
+    "version": "0.1.0",
+    "description": "Electrical Power System (EPS) Board distributes power from the onboard batteries to OBC and external sensors.",
+    "license": "MIT",
+    "author": "Joseph Siciliano jsici001@odu.edu & contributors",
+    "dependencies": {
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "adc-to-i2c",
+    "version": "0.1.0",
+    "description": "ADS1115 ADC to I2C Converter - receives power from EPS Board and converts ADC outputs to I2C bus communication for external sensors including the six sun sensors.",
+    "license": "MIT",
+    "author": "Joseph Siciliano jsici001@odu.edu & contributors",
+    "dependencies": {
+    }
+}

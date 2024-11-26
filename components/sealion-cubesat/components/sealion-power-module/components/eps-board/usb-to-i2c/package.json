@@ -1,0 +1,9 @@
+{
+    "name": "usb-to-i2c",
+    "version": "0.1.0",
+    "description": "MCP2221A USB to I2C Converter - receives power from EPS Board and converts USB 2.0 to I2C bus communication for Ms_S.",
+    "license": "MIT",
+    "author": "Joseph Siciliano jsici001@odu.edu & contributors",
+    "dependencies": {
+    }
+}

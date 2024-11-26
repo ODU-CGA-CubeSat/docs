@@ -1,0 +1,9 @@
+{
+    "name": "multispectral-sensor",
+    "version": "0.1.0",
+    "description": "PixelSensor Multispectral Sensor (Ms_S) - receives power from and transmits data via USB 2.0 Micro to EPS Board.",
+    "license": "MIT",
+    "author": "Joseph Siciliano jsici001@odu.edu & contributors",
+    "dependencies": {
+    }
+}

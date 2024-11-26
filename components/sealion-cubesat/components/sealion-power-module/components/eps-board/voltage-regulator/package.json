@@ -1,0 +1,9 @@
+{
+    "name": "voltage-regulator",
+    "version": "0.1.0",
+    "description": "LM2576 - Steps-down battery voltage to usable 3.3V or 5V bus lines for OBC and external sensors.",
+    "license": "MIT",
+    "author": "Joseph Siciliano jsici001@odu.edu & contributors",
+    "dependencies": {
+    }
+}
